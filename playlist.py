@@ -5,7 +5,7 @@
 # NOTE: Since there is no user input in this assignment, feel free to leave your function calls uncommented when you turn it in!
 
 # 1.0 TODO: Import all of the functions in playlist_helpers.py into this file
-
+import playlist_helpers
 
 # This code initializes your playlist as an empty list. No songs in it yet!
 my_playlist = []
@@ -13,7 +13,7 @@ my_playlist = []
 
 # 2.0 TODO: Check what is in your playlist using the display_playlist() function
 # NOTE: Look at the display_playlist() function in playlist_helpers.py to figure out how to use it
-
+playlist_helpers.display_playlist(my_playlist)
 
 # 3.0 TODO: Add a song to my_playlist using the add_song() function
 # The song that you add should be a dictionary, with the following key-value pairs
